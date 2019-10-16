@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.main_img {
+    background-image: url('images/casas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+
+.line {
+    border: 7px solid #549127;
+}
+
+.subtitle {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #632a00;
+
+}
+
+/* .container {
+    padding: 0 40px;
+} */
