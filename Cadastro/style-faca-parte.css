@@ -1,0 +1,45 @@
+/* adaptação mobile */
+@media (max-width: 167px){
+    .left-side, .right-side {
+        height: 50vh;
+        width: 100%;
+    }
+}
+
+.left-side, .right-side {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-side {
+    background-image: url('imagens/caucasian_guy.jpg');
+    background-position: center;
+
+}
+
+.right-side {
+    background-image: url('imagens/comercio.png')
+}
+
+.button-faca-parte {
+    background-color: #559128;
+    border: #b3b3b3;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button-faca-parte:hover {
+    background-color: white;
+    color: #559128;
+}
