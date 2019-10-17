@@ -1,0 +1,60 @@
+html{
+    overflow: hidden;
+}
+.casas-login{
+    background-color: black;
+    
+    background-image: url("../images/casas_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.login{
+    background-color: white;
+    
+}
+
+.logon{
+    border: 2px solid green;
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 5px 5px 5px green;
+    margin-top: 25vh;
+}
+
+.logon input{
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 100%;
+    
+}
+
+.logon-with{
+    margin: 0 auto;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logon label{
+    text-align: start;
+    font-size: 1em;
+}
+.logon form p{
+    font-size: 10px;
+    text-align: end;
+}
+.logon-with img{
+    width: 40px;
+    height: 50px;
+   
+    
+    
+}
