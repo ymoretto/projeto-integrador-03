@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 /* adaptação mobile */
 @media (max-width: 167px){
     .left-side, .right-side {

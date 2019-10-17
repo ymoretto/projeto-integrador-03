@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.picture-side, .content-side {
+    height: 100vh;
+}
+
+.picture-side {
+    background-image: url(imagens/mulher_celular.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+.content-side {
+    background-color: rgba(235, 235, 235, 1);
+    align-items: center;
+}
+
+.content {
+    margin-left: 50px;
+    width: 100vh;
+}
+
+.avatar {
+    width: 200px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.icon-placeholder {
+    padding: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: brown;
+    padding-bottom: 50px;
+}
+
+input {
+    border-color: green;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.button {
+    background-color: #559128;
+    border: #b3b3b3;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
