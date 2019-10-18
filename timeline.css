@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.usuario{
+    text-decoration: none;
+}
+
+.cx, .coment{
+    background-color: seashell;
+}
+
+
+header, footer{
+    border: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+header{
+    height: 100px;
+    background-image: url(img/san-francisco-1116208_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 85%;
+}
+
+.dropdown{
+    display: none;
+}
+    
+
+section{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    margin-top: 10px;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    /* float: left; */
+
+}
+ 
+div{
+    /* border: 1px solid green; */
+    /* width: 30%; */
+    /* box-sizing: border-box; */
+    float: left;
+    margin: 5px;
+    /* right: 20px; */
+}
+
+.menuvertical{
+    left: 0;
+    width: 15%;
+    height: 100%;
+    
+    margin-right: 10px;
+    color: black;
+    /* position: fixed; */
+    
+    
+}
+
+.img{
+    right: 0;
+    width: 20%;
+    /* border-left: 1px solid green; */
+    height: 100%;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.timeline{
+    width: 60%;
+}
+
+.container{
+    width: 100%;
+}
+
+#public{
+    background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 80%;
+    background-size: 30px 30px;
+    background-position: 11px 30px;
+    text-align: center;
+}
+
+li{
+    border: none;
+    margin-right: 5px;
+    color: black;
+    padding: 5px;   
+}
+
+.input{
+    width: 120%;
+}
+#mensagem{
+    width: 80%
+}
+
+.coment{
+    border-radius: 10px;
+    border: 1px solid seashell;
+}
+
+.imgusuario2{
+    width: 50px;
+
+}
+
+    
+    #button{
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        float:left;
+        width: 650%;
+        border: #fbfbfb solid 4px;
+        cursor:pointer;
+        background-color: #549127;
+        color:white;
+        font-size:24px;
+        padding-top:0px;
+        padding-bottom:0px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        font-weight:50;
+    }
+    
+    #button:hover{
+        background-color: rgba(0,0,0,0);
+        color:#ee9528;
+    }
+
+    .principal{
+        display: flex;
+        justify-content: flex-end;
+    }
+footer{
+    position: static;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 30px;
+    background-color: #549127;
+    color: aliceblue;
+}
+
+#btn{
+    border: none;
+    border-color: aqua;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    /* background-color: gainsboro; */
+    background-color: #549127;
+    -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        font-weight:50;
+    border-radius: 10px;
+}
+
+
+
+#btn:hover{
+     background-color: rgba(0,0,0,0);
+        color:#ee9528;
+}
+
+.iconm{
+    width: 25px;
+}
+/* mobile */
+@media (min-width:360px) and (max-width:640px){
+    
+      .menuvertical{
+          display: none;
+      }
+      .img{
+          display: none;
+      }
+
+      .timeline{
+          width: 100%;
+      }
+      .input{
+        width: 120%;
+
+    }
+
+    #button{
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        float:left;
+        width: 275%;
+        background-color: #549127;
+        font-size:24px;
+        padding-top:0px;
+        padding-bottom:0px;
+        
+    }
+
+    .dropdown{
+        display: block;
+        height: 10px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        border: none;
+        
+    }
+    
+    header{
+        height: 47px;
+        background-image: url(img/san-francisco-1116208_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 85%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .kbca{
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    #btn{
+        border: 1px solid;
+    }
+
+
+      
+}
+
+
+
+
+    
