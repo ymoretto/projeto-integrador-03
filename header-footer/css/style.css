@@ -1,0 +1,40 @@
+body{
+	background-color: blue;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	}
+header{
+	overflow: hidden; /*Trata o tamanho do conteúdo.*/
+	border-radius: 100px; /*Deixa o header com as bordas redondas.*/
+	margin-top: 10px;
+	box-shadow: 2px 4px 7px #000; /*Faz o sombreado no header.*/
+	}
+.nav-link{		
+    text-decoration: none;
+	color: #632a00;
+}
+#menu{
+	display: none;
+}
+#lista{
+	margin: 0 auto;
+  	width: 100%;
+  	padding: 0;
+}
+#logo{
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+footer{
+	background-color: #549127;
+	position: absolute;
+	bottom: 0;
+}
+footer ul li{
+	text-align: center;
+}
+footer ul li a{
+    text-decoration: none;
+	color: #632a00;
+}
