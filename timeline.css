@@ -3,6 +3,62 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.busca1{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo1{
+    width: 100px;
+}
+
+.busca{
+    border-radius: 100px;
+    border: solid 1px yellowgreen;
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 4px 7px #000;
+    /* padding-right: 100px; */
+    
+}
+
+.lupa{
+    height: 10px;
+}
+
+.botao{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #ee9528;
+}
+
+#procurar{
+    width: 100%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: solid 1px #ee9528;
+}
+
+.form1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 .usuario{
     text-decoration: none;
 }
@@ -12,17 +68,22 @@
 }
 
 
-header, footer{
+footer{
     border: 1px solid gray;
     padding-bottom: 10px;
 }
 
 header{
+    display: flex;
+    justify-content: center;    
     height: 100px;
-    background-image: url(img/san-francisco-1116208_1920.jpg);
+    background-image: url(imgtimeline/san-francisco-1116208_1920.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 85%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
 }
 
 .dropdown{
@@ -223,17 +284,19 @@ footer{
     
     header{
         height: 47px;
-        background-image: url(img/san-francisco-1116208_1920.jpg);
+        background-image: url(imgtimeline/san-francisco-1116208_1920.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position-y: 85%;
         padding: 0;
         margin: 0;
+        display: flex;
+        justify-content: center;
     }
     
     .kbca{
-        padding: 0;
-        margin: 0;
+        border: #ee9528 solid 2px;
+        width: 1000%;
         
     }
 
@@ -241,6 +304,20 @@ footer{
         border: 1px solid;
     }
 
+    .botao{
+        background-color: #ee9528;
+    }
+    
+    #procurar{
+        width: 100%;
+        border: solid 1px #ee9528;
+    }
+
+    .form1{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
 
       
 }
