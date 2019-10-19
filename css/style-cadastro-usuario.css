@@ -9,7 +9,7 @@
 }
 
 .picture-side {
-    background-image: url(imagens/mulher_celular.jpg);
+    background-image: url('../images/mulher_celular.jpg');
     background-position: left;
     background-size: cover;
 }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <title>Colaki</title>
-    <link rel="shortcut icon" href="img/Colaki-logo(1).png"/>
+    <link rel="shortcut icon" href="images/Colaki-logo(1).png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Chilanka|Open+Sans&display=swap" rel="stylesheet"> 
   	<link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
 	<header class="container navbar .navbar-expand-lg sticky-top navbar-light bg-light">	
 			<div class="col-3">		
-				<a href="#" id="logo"><img src="img/Colaki-logo(3).png" width=120px></a>
+				<a href="#" id="logo"><img src="images/Colaki-logo(3).png" width=120px></a>
 			</div>		
 			<nav class="col-9 container">					
 				<ol class="row nav col-10" id="lista">

@@ -6,7 +6,7 @@ body {
 
 
 .main_img {
-    background-image: url('images/casas.jpg');
+    background-image: url('../images/casas.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -20,13 +20,13 @@
 }
 
 .left-side {
-    background-image: url('imagens/caucasian_guy.jpg');
+    background-image: url('../images/caucasian_guy.jpg');
     background-position: center;
 
 }
 
 .right-side {
-    background-image: url('imagens/comercio.png')
+    background-image: url('../images/comercio.png')
 }
 
 .button-faca-parte {
