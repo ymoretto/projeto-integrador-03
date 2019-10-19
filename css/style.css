@@ -1,7 +1,7 @@
 body{
-	background-color: blue;
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
+	min-height: 100vh;
 	}
 header{
 	overflow: hidden; /*Trata o tamanho do conteúdo.*/
@@ -37,4 +37,8 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
 	color: #632a00;
+}
+main{
+	background-color: green;
+	margin: 30px 0;
 }

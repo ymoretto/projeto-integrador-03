@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<?php require_once("header.php");?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +13,6 @@
 </head>
 <body>
     
-    <header> 
-        <!-- Fiz esse header apenas para marcar o espaço em que vai entrar o header.php -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Header</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Apenas <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Um</a>
-                <a class="nav-item nav-link" href="#">Temporário</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-              </div>
-            </div>
-        </nav>
-    </header>
-
 <!-- Código realmente começa aqui -->
 
 <div class="main_img">
@@ -111,16 +96,4 @@
 
 <!-- Código termina aqui -->
 
-    <footer>
-        <nav class="navbar navbar-dark">
-            <p class="navbar-text footer-text text-center"> Header temporário para o Projeto Integrador</p>
-        </nav>
-    </footer>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-</html>
+<?php include_once("footer.php");?>
