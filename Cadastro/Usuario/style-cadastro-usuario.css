@@ -43,10 +43,11 @@ h2 {
     padding-bottom: 50px;
 }
 
-input {
+.my-input {
     border-color: green;
     border-radius: 20px;
     padding: 5px 15px;
+    width: 100%;
 }
 
 .button {
