@@ -2,9 +2,9 @@ html{
     overflow: hidden;
 }
 .casas-login{
-    background-color: black;
+    /* background-color: black; */
     
-    background-image: url("../images/casas_login.jpg");
+    background-image: url('../images/apartamentos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

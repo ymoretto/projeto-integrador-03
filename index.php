@@ -28,21 +28,21 @@
             <div class="card-deck">
                 <!-- card 1 -->
               <div class="card">
-                <img class="card-img-top" src="images/undraw_a_day_at_the_park_owg1.svg" alt="Card image cap">
+                <img class="card-img-top" src="images/undraw-a-day-at-the-park.svg" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
               <!-- card 2 -->
               <div class="card">
-                <img class="card-img-top" src="images/undraw_business_shop_qw5t.svg" alt="Card image cap">
+                <img class="card-img-top" src="images/undraw-business-shop.svg" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
               </div>
               <!-- card 3 -->
               <div class="card">
-                <img class="card-img-top" src="images/undraw_composition_oskp.svg" alt="Card image cap">
+                <img class="card-img-top" src="images/undraw-composition.svg" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>

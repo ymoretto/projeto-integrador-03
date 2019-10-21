@@ -3,7 +3,7 @@
 		<div class="col-5 contsobre">
 		        <div class="container cardsobre">
 		            <div class="order-1 perfil-usuario">
-		                <div class="row"><img src="images/profile1.svg" alt="" class="col-4 fotouser"></div>
+		                <div class="row"><img src="images/usuario-icone.png" alt="" class="col-4 fotouser"></div>
 		                <div class="row nav redes-sociais">
 		                    <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="Facebook" class="nav-link"></a>
 		                    <a href="https://twitter.com/"><img src="images/twitter.svg" alt="Twitter" class="nav-link"></a>
