@@ -10,7 +10,7 @@ body {
 .casas-login{
     /* background-color: black; */
     
-    background-image: url('../images/apartamentos.jpg')'';
+    background-image: url('../images/apartamentos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
