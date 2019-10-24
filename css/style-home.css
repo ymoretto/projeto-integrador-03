@@ -60,3 +60,14 @@ p.subtitulo {
 .form-contato {
     padding-bottom: 50px;
 }
+
+@media (max-width: 576px) {
+    h1.titulo {
+        font-size: 2em;
+    }
+
+    .contato {
+        padding-bottom: 50px;
+    }
+}
+
