@@ -5,8 +5,10 @@
 }
 
 
-/* adaptação mobile */
-@media (max-width: 167px){
+/* ----- ADAPTAÇÃO MOBILE ------ */
+
+/* Extra Small */
+@media (max-width: 576px){
     .left-side, .right-side {
         height: 50vh;
         width: 100%;

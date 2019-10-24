@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <!-- <?php require_once("header.php");?> -->
     <title>Faça Parte</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
