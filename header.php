@@ -9,6 +9,7 @@
   	<link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
   	<script src="//code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/style-home.css">
 </head>
 
 <body>

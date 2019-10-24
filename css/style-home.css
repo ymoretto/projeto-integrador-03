@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.main_img {
+    background-image: url('../images/casas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 85vh;
+}
+
+div.chamada {
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+h1.titulo {
+    color: #632a00;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p.subtitulo {
+    color: #632a00;
+}
+
+.line {
+    border: 7px solid #549127;
+}
+
+.subtitle {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #632a00;
+    font-weight: 700;
+
+}
+
+.button {
+    background-color: #559128;
+    border: #b3b3b3;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.form-contato {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+    h1.titulo {
+        font-size: 2em;
+    }
+
+    .contato {
+        padding-bottom: 50px;
+    }
+}
+

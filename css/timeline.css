@@ -2,6 +2,12 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.iconaba{
+    width: 1px;
 }
 
 .logo{
@@ -74,17 +80,22 @@ footer{
 }
 
 header{
-    display: flex;
-    justify-content: center;    
-    height: 100px;
-    background-image: url(imgtimeline/san-francisco-1116208_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 85%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 1%;
-}
+        display: flex;
+        justify-content: center;    
+        height: 100px;
+        width: 100%;
+        background-image: url('../images/san-francisco.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 85%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 1%;
+        border: #549127 solid 2px;
+        
+    }
+
+    
 
 .dropdown{
     display: none;
@@ -281,10 +292,11 @@ footer{
         border: none;
         
     }
+
     
     header{
         height: 47px;
-        background-image: url(imgtimeline/san-francisco-1116208_1920.jpg);
+        background-image: url('../images/san-francisco.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
         background-position-y: 85%;
@@ -319,7 +331,20 @@ footer{
         justify-content: space-around;
     }
 
-      
+    .busca{
+        display: none;
+    }
+
+    #dropdownMenuButton{
+        
+        background-color: #549127;
+    }
+
+    #btn{
+        border-radius: none;
+    }
+
+     
 }
 
 
