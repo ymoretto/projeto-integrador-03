@@ -1,4 +1,5 @@
-<footer class="container-fluid"> 	
+<footer class="container-fluid"> 
+	<!-- <a href="#">Colaki</a>	 -->
 	<ul class="nav" id="listafooter">
 		<li id="paglista" class="col order-1 nav-item"><a href="#">Home</a></li>
 		<li id="paglista" class="col order-2 nav-item"><a href="#">Sobre nós</a></li>

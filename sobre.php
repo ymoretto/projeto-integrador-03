@@ -1,4 +1,14 @@
-<section id="container sobre">
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- <title>Sobre</title> -->
+</head>
+
+<body>
+
+<?php require_once("header.php");?>
+
+	<section id="container sobre">
 	<div class="row">
 		<div class="col-5 contsobre">
 		        <div class="container cardsobre">
@@ -22,3 +32,5 @@
 		</div>
 	</div>
 </section>
+
+<?php include_once("footer.php");?>

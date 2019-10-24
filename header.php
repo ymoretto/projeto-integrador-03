@@ -12,8 +12,9 @@
 </head>
 
 <body>
-
+	<div class="container">
 	<header class="container navbar .navbar-expand-lg sticky-top navbar-light bg-light">	
+		
 			<div class="col-3">		
 				<a href="#" id="logo"><img src="images/Colaki-logo(3).png" width=120px></a>
 			</div>		
@@ -29,4 +30,5 @@
 			</nav>
 
 	</header> 
+	</div>
 
