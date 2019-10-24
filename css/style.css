@@ -9,6 +9,13 @@ header{
 	margin-top: 10px;
 	box-shadow: 2px 4px 7px #000; /*Faz o sombreado no header.*/
 	}
+
+	.sticky-top {
+	position: fixed;
+	margin: 1% 6% 0 6%;
+	}
+
+
 .nav-link{		
     text-decoration: none;
 	color: #632a00;
