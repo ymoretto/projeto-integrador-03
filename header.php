@@ -21,7 +21,7 @@
 				</div>		
 				<nav class="col-9 container">					
 					<ol class="row nav col-10" id="lista">
-						<li class="col nav-item"><a class="nav-link active" href="#">Home</a></li>
+						<li class="col nav-item"><a class="nav-link active" href="index.php">Home</a></li>
 						<li class="col nav-item"><a class="nav-link" href="sobre.php">Sobre nós</a></li>
 						<li class="col nav-item"><a class="nav-link" href="faca-parte.php">Faça parte</a></li>
 						<li class="col nav-item"><a class="nav-link" href="login.php">Login</a></li>

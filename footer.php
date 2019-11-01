@@ -1,9 +1,9 @@
 <footer class="container-fluid"> 	
 	<ul class="nav" id="listafooter">
-		<li id="paglista" class="col order-1 nav-item"><a href="#">Home</a></li>
-		<li id="paglista" class="col order-2 nav-item"><a href="#">Sobre nós</a></li>
-		<li id="paglista" class="col order-3 nav-item"><a href="#">Faça parte</a></li>
-		<li id="paglista" class="col order-4 nav-item"><a href="#">Login</a></li>
+		<li id="paglista" class="col order-1 nav-item"><a href="index.php">Home</a></li>
+		<li id="paglista" class="col order-2 nav-item"><a href="sobre.php">Sobre nós</a></li>
+		<li id="paglista" class="col order-3 nav-item"><a href="faca-parte.php">Faça parte</a></li>
+		<li id="paglista" class="col order-4 nav-item"><a href="login.php">Login</a></li>
 	</ul>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzoXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -15,13 +15,13 @@
       <div class="row no-gutters">
           <div class="col-md-6 no-gutters">
               <div class="left-side d-flex justify-content-center align-items-center">
-                    <a href="cadastro-usuario.html"><button class="button-faca-parte"><b>Morador</b></button></a>
+                    <a href="cadastro-usuario.php"><button class="button-faca-parte"><b>Morador</b></button></a>
               </div>
           </div>
 
           <div class="col-md-6 no-gutters">
               <div class="right-side d-flex justify-content-center align-items-center">
-                    <a href="cadastro-comerciante.html"><button class="button-faca-parte"><b>Comerciante</b></button></a>           
+                    <a href="cadastro-comerciante.php"><button class="button-faca-parte"><b>Comerciante</b></button></a>           
               </div>
           </div>
       </div>
