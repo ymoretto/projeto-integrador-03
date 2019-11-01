@@ -1,14 +1,21 @@
 html{
     overflow: hidden;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .casas-login{
     /* background-color: black; */
     
-    background-image: url('../images/apartamentos.jpg');
+    background-image: url('../images/apartamentos.jpg')'';
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
+    
 }
 
 .login{

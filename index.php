@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php require_once('header-responsivo.php'); ?>
     
 <!-- Código realmente começa aqui -->
 
@@ -72,9 +72,6 @@
 
 
 </section>
-
-
-
 <!-- Código termina aqui -->
 
 <?php include_once("footer.php");?>
