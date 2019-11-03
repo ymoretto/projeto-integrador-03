@@ -1,124 +1,8 @@
-<!doctype html>
-<html lang="en">
+<?php require_once('header.php'); ?>
 
-<head>
-  <title>Página do Usuário</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<main class="pagusuario">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-    body {
-      color: black;
-      font-family: 'Open Sans', sans-serif;
-      /* background-color: #77c28d; */
-      margin: 0px;
-      overflow-x: hidden;
-      overflow-y: scroll;
-    }
-    
-    .coverImageHolder {
-      width: 100%;
-      padding: 0px;
-      height: 400px;
-      background-image: url('images/apartamentos.jpg');
-    }
-
-    .userOptionsBar {
-      height: 60px;
-      background: white;
-      width: 100%;
-      padding: 10px;
-
-    }
-
-    .userImage {
-      height: 200px;
-      width: 200px;
-      background-image: url('images/usuaria-exemplo.jpg');
-      border-radius: 50%;
-      margin-top: -166px;
-    }
-
-    .emp-profile {
-      padding: 3%;
-      margin-top: 3%;
-      margin-bottom: 3%;
-      border-radius: 0.5rem;
-      background: #fff;
-    }
-
-    .profile-edit-btn {
-      border: none;
-      border-radius: 1.5rem;
-      width: 70%;
-      padding: 2%;
-      font-weight: 600;
-      color:black;
-      cursor: pointer;
-      margin-bottom: 15px;
-      background: #549127;
-    }
-
-    .proile-rating {
-      font-size: 12px;
-      color: #818182;
-      margin-top: 5%;
-    }
-
-    .proile-rating span {
-      color: #495057;
-      font-size: 15px;
-      font-weight: 600;
-    }
-
-    .profile-head .nav-tabs {
-      margin-bottom: 5%;
-    }
-
-    .profile-head .nav-tabs .nav-link.active {
-      border: none;
-      border-bottom: 2px solid #77c28d;
-    }
-
-    .profile-tab p {
-      font-weight: 600;
-      color: #77c28d;
-    }
-
-    .nav-tabs {
-    border-bottom: 1px solid #77c28d;
-}
-
-    .col-md-6 {
-      left: 550px;
-    }
-
-    .col-md-2 {
-      left: 550px;
-    }
-
-    a {
-      color: #77c28d;
-        }
-
-        a:hover{
-     background: #549127;
-     color: #77c28d;
-}
-    
-  </style>
-</head>
-
-<body>
-
-  <div class="coverImageHolder">
-
+<div class="coverImageHolder">
 
   </div>
 
@@ -271,15 +155,6 @@
       </div>
 </div> -->
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-</body>
+</main>
 
-</html>
+<?php include_once("footer.php");?>

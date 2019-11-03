@@ -1,4 +1,4 @@
-<?php require_once('header-responsivo.php'); ?>
+<?php require_once('header.php'); ?>
     
 <!-- Código realmente começa aqui -->
 
