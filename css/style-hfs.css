@@ -2,22 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
-/* @media only screen and (max-width: 992px) {
-    header {
-        overflow: hidden; Trata o tamanho do conteúdo.
-        margin-top: 10px;
-        box-shadow: 2px 4px 7px #000; Faz o sombreado no header.
-    }
-  } */
-
 * {
+    box-sizing: border-box;
 	margin: 0;
 	padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-body {
-    position: relative;
-}
+
+
 
 .margemlateral {
     margin: 10px 150px;
