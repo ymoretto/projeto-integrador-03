@@ -10,11 +10,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 98vw;
     height: 85vh;
 }
 
-.chamada {
+div.chamada {
+    max-width: 50%;
     position: relative;
     top: 20%;
     left: 10%;

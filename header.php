@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <title>Colaki</title>
-    <link rel="shortcut icon" href="images/colaki-logo-icone-verde.png" class="iconaba">
+    <link rel="shortcut icon" href="images/colaki-logo-icone-verde.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Chilanka|Open+Sans&display=swap" rel="stylesheet"> 
@@ -45,4 +45,3 @@
     </nav>
 
   </header>
-
