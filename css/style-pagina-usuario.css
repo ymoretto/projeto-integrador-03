@@ -1,13 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-/* body {
+section {
   color: black;
   font-family: 'Open Sans', sans-serif;
-  background-color: #77c28d;
+  /* background-color: #77c28d; */
   margin: 0px;
   overflow-x: hidden;
   overflow-y: scroll;
-} */
+}
 
 .coverImageHolder {
   width: 100%;

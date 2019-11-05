@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 
-<main class="pagusuario">
+<section class="pagusuario">
 
 <div class="coverImageHolder">
 
@@ -155,6 +155,6 @@
       </div>
 </div> -->
 
-</main>
+</section>
 
 <?php include_once("footer.php");?>
