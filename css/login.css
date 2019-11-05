@@ -1,4 +1,4 @@
-html{
+html {
     overflow: hidden;
 }
 
@@ -7,23 +7,24 @@ html{
 body {
     font-family: 'Open Sans', sans-serif;
 }
-.casas-login{
+
+.casas-login {
     /* background-color: black; */
-    
+
     background-image: url('../images/apartamentos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
-    
+
 }
 
-.login{
+.login {
     background-color: white;
-    
+
 }
 
-.logon{
+.logon {
     border: 2px solid green;
     width: 45%;
     height: auto;
@@ -35,14 +36,14 @@ body {
     margin-top: 25vh;
 }
 
-.logon input{
+.logon input {
     border: 2px solid green;
     border-radius: 20px;
     width: 100%;
-    
+
 }
 
-.logon-with{
+.logon-with {
     margin: 0 auto;
     width: 150px;
     height: 80px;
@@ -50,18 +51,21 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
-.logon label{
+
+.logon label {
     text-align: start;
     font-size: 1em;
 }
-.logon form p{
+
+.logon form p {
     font-size: 10px;
     text-align: end;
 }
-.logon-with img{
+
+.logon-with img {
     width: 40px;
     height: 50px;
-   
-    
-    
+
+
+
 }
