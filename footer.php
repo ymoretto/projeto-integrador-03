@@ -1,4 +1,4 @@
-	<footer class="footer container-fluid">
+	<footer class="container-fluid" id="footer">
 		<div class="containerfooter row">
 			<div><a href="#" class="text-muted">Home</a>
 				<!-- <ul>
