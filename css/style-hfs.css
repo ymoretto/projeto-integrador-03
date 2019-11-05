@@ -7,8 +7,14 @@
 	margin: 0;
 	padding: 0;
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    overflow-x: hidden;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
 
 .margemlateral {
@@ -30,11 +36,12 @@ header {
 .navbar-light .navbar-nav .nav-link {color: #632a00; margin: 0 70px;}
 .navbar-light .navbar-nav .nav-link.disabled {color: #632a00; margin: 0 70px;}
 
-.footer {
+footer {
     background-color: #549127;  
     text-decoration: none;
     margin: 0;
     padding: 0 200px;
+    z-index: 25;
 }
 .containerfooter {
     /* width: 100%; */
@@ -46,9 +53,3 @@ header {
 .text-muted {
     color:  #632a00!important;
 }
-
-/* Estilo da pagina sobre */
-
-#mainsobre {
-    padding: 100px 0 0 0;
-  }
