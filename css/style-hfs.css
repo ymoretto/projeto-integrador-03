@@ -1,0 +1,59 @@
+/* Esse estilo é das páginas Header, Footer e Sobre. */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
+    /* position: relative; */
+=======
+    overflow: hidden;
+    overflow-x: hidden;
+>>>>>>> dyonatan
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.margemlateral {
+    margin: 10px 150px;
+}
+
+header {
+    background-color: white;
+    overflow: hidden; /*Trata o tamanho do conteúdo.*/    
+    border-radius: 50px; /*Deixa o header com as bordas redondas. Se remover esta linha o header fica quadrado e os links aparecem corretamente.*/    
+	margin-top: 10px;
+    box-shadow: 2px 4px 7px #000; /*Faz o sombreado no header.*/
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-light .navbar-brand {color: #549127; font-size: 27px; margin: 0 30px;}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {color: #632a00; margin: 0 70px;}
+.navbar-light .navbar-nav .nav-link {color: #632a00; margin: 0 70px;}
+.navbar-light .navbar-nav .nav-link.disabled {color: #632a00; margin: 0 70px;}
+
+footer {
+    background-color: #549127;  
+    text-decoration: none;
+    margin: 0;
+    padding: 0 200px;
+    z-index: 25;
+}
+.containerfooter {
+    /* width: 100%; */
+    padding: 0 15px;
+}
+.containerfooter a { 
+    margin: 0 80px;
+}
+.text-muted {
+    color:  #632a00!important;
+}

@@ -1,17 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-
-* {
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-/* adaptação mobile */
-@media (max-width: 167px){
-    .left-side, .right-side {
-        height: 50vh;
-        width: 100%;
-    }
-}
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap'); */
 
 .left-side, .right-side {
     height: 100vh;
@@ -40,8 +27,8 @@
     text-decoration: none;
     font-size: 24px;
 
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    /* -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; */
 
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }

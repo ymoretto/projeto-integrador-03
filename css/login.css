@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     overflow: hidden;
 }
@@ -11,17 +12,25 @@ body {
 .casas-login {
     /* background-color: black; */
 
+=======
+.casas-login {
+    margin: 0;
+    padding: 0;
+>>>>>>> master
     background-image: url('../images/apartamentos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
+<<<<<<< HEAD
 
 }
 
 .login {
     background-color: white;
 
+=======
+>>>>>>> master
 }
 
 .logon {
@@ -65,7 +74,10 @@ body {
 .logon-with img {
     width: 40px;
     height: 50px;
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> master
 }

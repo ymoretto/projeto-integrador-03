@@ -18,7 +18,7 @@
               <div class="card col-sm-6">
                 <img class="card-img-top" src="images/undraw-a-day-at-the-park.svg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">This is a longer card with supporting text below as as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
               <!-- card 2 -->
@@ -72,9 +72,6 @@
 
 
 </section>
-
-
-
 <!-- Código termina aqui -->
 
 <?php include_once("footer.php");?>

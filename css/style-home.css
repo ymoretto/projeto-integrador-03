@@ -1,20 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap'); */
 
 .main_img {
     background-image: url('../images/casas.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 98vw;
     height: 85vh;
 }
 
+.chamada {
+    max-width: 50%;
+}
+
+/* .main_img h1.titulo {
+    max-width: 50%;
+}
+
+.main_img p.subtitulo {
+    max-width: 50%;
+} */
+
 div.chamada {
+    max-width: 50%;
     position: relative;
     top: 20%;
     left: 10%;
