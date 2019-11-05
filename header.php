@@ -20,7 +20,7 @@
 
   <header class="margemlateral">
 
-    <nav class="navbar navbar-expand-lg navbar-light"s>
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Colaki</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
