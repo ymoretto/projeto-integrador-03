@@ -14,6 +14,18 @@ body {
     height: 85vh;
 }
 
+.chamada {
+    max-width: 50%;
+}
+
+/* .main_img h1.titulo {
+    max-width: 50%;
+}
+
+.main_img p.subtitulo {
+    max-width: 50%;
+} */
+
 div.chamada {
     max-width: 50%;
     position: relative;
