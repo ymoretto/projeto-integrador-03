@@ -16,11 +16,21 @@
     }
 }
 
-@media screen and (min-width: 315px) and (max-width: 575px) {
+/* @media screen and (min-width: 315px) and (max-width: 575px) {
     .logon{
-        margin-bottom: 15px;
+        margin: 0 0 15px 0 !important;
+    }
+} */
+
+@media screen and (min-width: 315px) and (max-width: 575px) {
+    .logon input{
+        border: 2px solid green;
+        border-radius: 20px;
+        width: 80%;
+
     }
 }
+
 img {
     vertical-align: middle;
     height: 97vh;

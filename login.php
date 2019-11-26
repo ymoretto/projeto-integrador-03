@@ -6,7 +6,7 @@
             <!-- <img src="images/apartamentos.jpg" class="" > -->
         </div>
         <div class=" col-sm-6 col-md-6 m-0 p-0">
-            <div class="logon">
+            <div class="logon mb-5">
                 <h1 class="h4">Faça seu login</h1>
                 <form action="" method="get">
                     <label for="user">
@@ -29,6 +29,7 @@
 
     </section>
 </div>
+
 
 
 <?php require_once("footer.php");?>
