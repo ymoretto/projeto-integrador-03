@@ -3,6 +3,7 @@
   <head>
     <title>Cadastro</title>
     <!-- Required meta tags -->
+    <link rel="shortcut icon" href="images/colaki-logo-icone-verde.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <?php include('header.php') ?>
+  
       <section>
       <div class="row no-gutters">
         <div class="col-md-3 no-gutters">
@@ -21,7 +22,7 @@
         </div>
           
         <div class="col-md-9 no-gutters">
-          <div class="content-side d-flex">
+          <div class="d-flex justify-content-center">
             <div class="content">
                 <h2><strong>Sobre Você</strong></h2>
                 <div class="row">
@@ -29,7 +30,7 @@
                     <img class="avatar" src="images/undraw-female-avatar.svg" alt="Avatar">
                   </div>
                   <div class="col-md-8">
-                    <form action="" method="POST">
+                    <form class="container" action="" method="POST" id="mobile1">
                       <div class="form-row">
                         <div class="form-group col-md-6">
                           <input type="text" class="my-input" id="nome" placeholder="Nome">
@@ -55,19 +56,23 @@
                           <label for="termos">Eu concordo com os Termos de Uso</label>
                         </div>
                       </div>
+                      <div id="botaomobile1">
                       <button type="submit" class="button"><b>Cadastrar</b></button>
+                      </div>
                     </form>
                   </div>
                   <div>
                     <div class="row">
                       <p>Ou se cadastrar com:</p><br>
                     </div>
-                    <div class="row icon-placeholder">
+                    <div class="row icon-placeholder" id="redesoc">
+                      <div class="container" id="redesoc">
                       <div class="col-md-6">
-                        <img class="icon" src="images/facebook.svg" alt="Facebook">
+                        <img class="icon" src="images/facebook.svg" alt="Facebook" width="50px">
                       </div>
                       <div class="col-md-6">
                         <img class="icon" src="images/google.svg" alt="Google">
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -77,23 +82,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <div class="container" id="divulgue">
-        <div><div id="serv"><img src="images/contato-por-telefone.png" alt="" width="70"></div><div><p>Facilite o contato com o cliente.</p></div></div>
-        <div><div id="serv"><img src="images/dinheiro.png" alt="" width="70"></div><div><p>Divulgue valor de preços e serviços.</p></div></div>
-        <div><div id="serv"><img src="images/placeholder.png" alt="" width="70"></div><div><p>Localização.</p></div></div>
-    </div>
-    <div id="divul" class="pq1">
-    <h2>Porque Colaki?</h2>
-    <p>Impusione seu comércio ou serviços, atingirá pessoas próximas ou distante que possam se interessar pelo seu produto ou serviço. E isso de uma forma simples e rápida, já que a Colaki permite esse contato direto com o público a ser atingido conforme sua localização.</p>
-    </div>
-    <div id="divul">
-    <h2>Vendas</h2>
-    <p>Com o seu comércio se tornando visível no Colaki e atingindo potenciais clientes, o resultado mais provável é um maior número de vendas. De acordo com "Associação Brasileira de Comércio Eletrônico (ABComm)" estima-se que até o fim de 2019, o faturamento das vendas através o deste segmento seja de R$ 79,9 milhões, sendo que 21% é por meio das redes sociais.</p>
-    </div>
     
-    <?php include('footer.php')?>
-
+      <?php require_once('footer.php');?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

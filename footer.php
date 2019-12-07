@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="css/footer.css">
+	
 	<!-- Footer -->
 	<footer class="page-footer font-small blue">
 

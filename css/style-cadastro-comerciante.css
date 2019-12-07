@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
+@media screen and (min-width: 576px) {
+
 {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -61,7 +63,7 @@ div{
 }
 
 .icon {
-    width: 100px;
+    width: 50px;
 }
 
 .icon-placeholder {
@@ -94,4 +96,144 @@ h2 {
     font-size: 16px;
 
     box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+
+    .picture-side{
+        display: none;
+    }
+
+    {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+/*     
+    .picture-side, .content-side {
+        height: 100vh;
+    } */
+    #divul{
+        margin: 100px;
+        border-bottom: solid;
+    }
+    
+    
+    p, h2{
+        padding: 10px;
+    }
+    
+    #divulgue{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        padding: 15px;
+        border-bottom: solid;
+    }
+    #serv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    
+    div{
+        /* border: solid red 1px; */
+    }
+    
+    
+    /* .picture-side {
+        background-image: url('../images/quitanda.jpg');
+        background-position: left;
+        background-size: cover;
+    }
+     */
+    .content-side {
+        background-color: rgba(235, 235, 235, 1);
+        align-items: center;
+    }
+    
+    .content {
+        margin-left: 0px;
+        width: 100vh;
+    }
+    
+    .avatar {
+        width: 200px;
+    }
+    
+    .icon {
+        width: 100px;
+    }
+    
+    .icon-placeholder {
+        padding: 10px;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        font-size: 24px;
+        color: brown;
+        padding-bottom: 50px;
+    }
+    
+    .my-input {
+        border-color: green;
+        border-radius: 20px;
+        padding: 5px 15px;
+        width: 100%;
+    }
+    
+    .button {
+        background-color: #559128;
+        border: #b3b3b3;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    
+        box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 8px;
+    }
+    #botaomobile1{
+        display: flex;
+        justify-content: center;
+    }
+
+    #redesoc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }

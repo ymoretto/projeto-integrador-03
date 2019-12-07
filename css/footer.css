@@ -1,0 +1,17 @@
+footer {
+    background-color: #549127;  
+    text-decoration: none;
+    margin: 0;
+    padding: 0 200px;
+    z-index: 25;
+}
+.containerfooter {
+    /* width: 100%; */
+    padding: 0 15px;
+}
+.containerfooter a { 
+    margin: 0 80px;
+}
+.text-muted {
+    color:  #632a00!important;
+}
