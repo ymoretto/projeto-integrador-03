@@ -1,0 +1,8 @@
+div.jumbotron-bgimage {
+    background-image: url("https://n4gm.com/wp-content/uploads/2019/11/Big-Houses2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    padding-top: 20vh;
+}

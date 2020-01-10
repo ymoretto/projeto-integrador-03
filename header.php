@@ -15,25 +15,27 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.php"> <img src="images/Colaki-logo(3).png" alt="Colaki" class="img-header"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-bg fixed-top navbar-center">
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item header-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item header-item">
-            <a class="nav-link" href="#">Sobre Nós</a>
+            <a class="nav-link" href="sobre.php">Sobre Nós</a>
+          </li>
+
+          <a class="navbar-brand" href="index.php"> <img src="images/Colaki-logo-verde.png" alt="Colaki" class="img-header"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+          <li class="nav-item header-item">
+            <a class="nav-link" href="cadastro.php">Faça Parte</a>
           </li>
           <li class="nav-item header-item">
-            <a class="nav-link" href="#">Faça Parte</a>
-          </li>
-          <li class="nav-item header-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="login.php">Login</a>
           </li>
         </ul>
       </div>

@@ -1,13 +1,11 @@
 <?php require_once('header.php'); ?>
-    
-<!-- Código realmente começa aqui -->
 
 <!-- Código realmente começa aqui -->
 
-<div class="main_img">
-  <div class="chamada">
-    <h1 class="titulo">Transforme seu bairro</h1>
-    <p class="subtitulo">Outra frase de efeito?</p>
+<div class="jumbotron jumbotron-bgimage" >
+  <div class="container">
+    <h1 class="display-4">Transforme seu bairro</h1>
+    <p class="lead">Encontre os melhors serviços, comércios e eventos de sua região</p>
   </div>
 </div>
 

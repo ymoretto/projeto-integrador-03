@@ -2,10 +2,33 @@
 
 header nav img.img-header {
     width:150px;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 li.header-item {
     font-size: 1.3em;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+header nav.navbar-bg {
+    background-color:white;
+    margin-top:10px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 5px #888888;
+    padding-left: 5vw;
+}
+
+header nav div ul li.header-item {
+    font-family: "Chilanka";
+    padding-top: 10px;
+}
+
+
+nav.navbar-center {
+    /* position: absolute; */
+    left: 50vw;
+    transform: translatex(-50%);
+    width: 60vw;
 }
